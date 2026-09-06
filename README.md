@@ -94,3 +94,4 @@ Colors are defined as CSS custom properties in `src/index.css` under `:root` (li
 
 - **npm registry**: this project has a local `.npmrc` pointing to the public npm registry (`registry.npmjs.org`) so it installs correctly even on machines where the global npm config points to a private registry.
 - Two packages (`esbuild`, `react-vertical-timeline-component`) have postinstall scripts that npm may flag for approval. Run `npm approve-scripts --allow-scripts-pending` if you want them to run automatically.
+ 
